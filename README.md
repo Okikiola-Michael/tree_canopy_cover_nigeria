@@ -21,7 +21,7 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
     // Tree canopy cover assets
     var tcc_2017 = ee.Image('projects/ee-alegbeleyeokiki/assets/tcc_nigeria/2017_TCC') //2017
     var tcc_2020 = ee.Image(projects/ee-alegbeleyeokiki/assets/tcc_nigeria/2020_TCC') //2020
-    var tcc_2024 = ee.Image(users/alegbeleyeokiki/2024_Nigeria_Tree_Canopy_Cover') //2024
+    var tcc_2024 = ee.Image('users/alegbeleyeokiki/2024_Nigeria_Tree_Canopy_Cover') //2024
 
     // Clip to your study area
 
