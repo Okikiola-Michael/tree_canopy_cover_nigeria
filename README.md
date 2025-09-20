@@ -1,6 +1,6 @@
 # tree_canopy_cover_nigeria
+![] <img width="975" height="631" alt="image" src="https://github.com/user-attachments/assets/07793f81-a450-4765-8ac5-8b1d19d647c0" />)
 
-![](https://github.com/Okikiola-Michael/gee_fire_apps/blob/main/gee_fire_image.jpg) 
 
 This repository contains a [Google Earth Engine](https://code.earthengine.google.com/) JavaScript-based script that can be used directly to access and download the tree canopy cover for Nigeria. We developed the first national-level tree canopy cover (TCC) for Nigeria,  using a random forest model on the GEE platform. The TCC was developed by training a regression-based random forest model using 3,047 sample points at the [Landsat](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2) pixel level (30m). Please read our [publication]() for more details:
 
