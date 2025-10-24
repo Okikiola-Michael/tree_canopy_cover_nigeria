@@ -9,7 +9,7 @@ This repository contains a [Google Earth Engine](https://code.earthengine.google
 
 ```
 
-There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengine.app/view/tree-canopy-cover-in-nigeria) that users can use to visualize, do simple analysis, and download the tree canopy cover. However, if you prefer to use GEE directly, below is a script to access the data.
+There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengine.app/view/tree-canopy-cover-in-nigeria) that users can use to visualize, perform simple analyses, and download  tree canopy cover data. However, if you prefer to use GEE directly, the script below provides access to the data.
 
 ## Direct Download using GEE platform - JavaScript
 
@@ -19,9 +19,9 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
     var boundary = ee.Feature('your boundary asset link') // You can also directly create your boundary on GEE using the drawing tools
 
     // Tree canopy cover assets
-    var tcc_2017 = ee.Image('projects/ee-alegbeleyeokiki/assets/tcc_nigeria/2017_TCC') //2017
-    var tcc_2020 = ee.Image(projects/ee-alegbeleyeokiki/assets/tcc_nigeria/2020_TCC') //2020
-    var tcc_2024 = ee.Image('users/alegbeleyeokiki/2024_Nigeria_Tree_Canopy_Cover') //2024
+    var tcc_2017 = ee.Image('projects/ee-alegbeleyeokiki/assets/tcc_nigeria/tcc_2017_masked') //2017
+    var tcc_2020 = ee.Image('projects/ee-alegbeleyeokiki/assets/tcc_nigeria/tcc_2020_masked') //2020
+    var tcc_2024 = ee.Image('projects/ee-alegbeleyeokiki/assets/tcc_nigeria/tcc_2024_masked') //2024
 
     // Clip to your study area
 
