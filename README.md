@@ -1,4 +1,4 @@
-# Tree Canopy Cover Nigeria
+# Tree Canopy Cover for Nigeria
  <img width="975" height="631" alt="image" src="https://github.com/user-attachments/assets/07793f81-a450-4765-8ac5-8b1d19d647c0" />
 
 
@@ -6,6 +6,14 @@ This repository contains a [Google Earth Engine](https://code.earthengine.google
 
 ```
 
+Independent validation results was carried out after model training and testing.
+| Accuracy Metrics               | 2017   | 2020   |2024    |
+|--------------------------------|--------|--------|--------|
+| 1. R2                          |72      |64      |83      |     
+| 2. R                           |85      |80      |91      | 
+| 3. RMSE                        |16.58   |19.29   |15.05   | 
+| 4. MAE                         |9.59    |11.07   |7.94    | 
+| 5. Number of observations      |188     |219     |264     |  
 
 ```
 
