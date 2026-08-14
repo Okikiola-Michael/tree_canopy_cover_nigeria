@@ -81,4 +81,9 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
 
   
 If you use this app or any of its derived products, do not forget to cite our [publication]().
+```
+Citation:
+
+```
+
 
