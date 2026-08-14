@@ -67,7 +67,7 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
   ```
 
 
-## Independent validation was carried out after model training and testing.
+## Independent validation results after model training and testing.
 
  | Accuracy Metrics               | 2017   | 2020   |2024    |
  |--------------------------------|--------|--------|--------|
