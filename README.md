@@ -6,7 +6,7 @@ This repository contains a [Google Earth Engine](https://code.earthengine.google
 
 
 
-                                                                     Independent validation results was carried out after model training and testing.
+                                                                     Independent validation was carried out after model training and testing.
                                                                      | Accuracy Metrics               | 2017   | 2020   |2024    |
                                                                      |--------------------------------|--------|--------|--------|
                                                                      | 1. R2                          |72      |64      |83      |     
