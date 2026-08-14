@@ -78,7 +78,7 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
  | 2. R                           |85      |80      |91      | 
  | 3. RMSE                        |16.58   |19.29   |15.05   | 
  | 4. MAE                         |9.59    |11.07   |7.94    | 
- | 5. Number of observations      |188     |219     |264     |  
+ | 5. Number of observation       |188     |219     |264     |  
 
                                           
 
