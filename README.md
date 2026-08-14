@@ -5,20 +5,6 @@
 This repository contains a [Google Earth Engine](https://code.earthengine.google.com/) JavaScript-based script that can be used directly to access and download the tree canopy cover for Nigeria. We developed the first national-level tree canopy cover (TCC) for Nigeria,  using a random forest model on the GEE platform. The TCC was developed by training a regression-based random forest model using 3,047 sample points at the [Landsat](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2) pixel level (30m). Please read our [publication]() for more details:
 
 
-### Independent validation was carried out after model training and testing.
-
- | Accuracy Metrics               | 2017   | 2020   |2024    |
- |--------------------------------|--------|--------|--------|
- | 1. R2                          |72      |64      |83      |     
- | 2. R                           |85      |80      |91      | 
- | 3. RMSE                        |16.58   |19.29   |15.05   | 
- | 4. MAE                         |9.59    |11.07   |7.94    | 
- | 5. Number of observations      |188     |219     |264     |  
-
-                                          
-
-
-
 
 There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengine.app/view/tree-canopy-cover-in-nigeria) that users can use to visualize, perform simple analyses, and download  tree canopy cover data. However, if you prefer to use GEE directly, the script below provides access to the data.
 
@@ -79,6 +65,19 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
 
   
   ```
+
+
+## Independent validation was carried out after model training and testing.
+
+ | Accuracy Metrics               | 2017   | 2020   |2024    |
+ |--------------------------------|--------|--------|--------|
+ | 1. R2                          |72      |64      |83      |     
+ | 2. R                           |85      |80      |91      | 
+ | 3. RMSE                        |16.58   |19.29   |15.05   | 
+ | 4. MAE                         |9.59    |11.07   |7.94    | 
+ | 5. Number of observations      |188     |219     |264     |  
+
+                                          
 
   
 If you use this app or any of its derived products, do not forget to cite our [publication]().
