@@ -31,11 +31,11 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
     var tcc_vis = {min: 0, max: 100, palette: ['white','lightgreen','green','darkgreen']}
 
     // Center to a specific location 
-    Map.centerObject(ee.Geometry.Point([5.649, 6.165]), 13);
+    Map.centerObject(boundary, 13);
 
     
     // View boundary layer
-    Map.addLayer(tcc_data, {color: 'red'}, 'tcc data', false);
+    Map.addLayer(boundary, {color: 'red'}, 'Boundary');
     // View the clipped TCC data
     Map.addLayer(clipped_tcc_2024, tcc_vis, 'Clipped 2024 TCC');
 
@@ -48,7 +48,7 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
       folder: "GEE_Exports", // your Google Drive folder
       fileNamePrefix: " [Year] Clipped TCC  ",
       scale: 30, 
-      region: geometry,
+      region: boundary,
       maxPixels: 1e13  
       });
   
@@ -62,7 +62,7 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
       bucket: "my-cloud-bucket", //your bucket name
       fileNamePrefix: " [Year] Clipped TCC " ,
       scale: 30, 
-      region: geometry,
+      region: boundary,
       maxPixels: 1e13 
       });
 
