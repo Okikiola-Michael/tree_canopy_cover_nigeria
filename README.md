@@ -24,13 +24,13 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
     var tcc_2024 = ee.Image('projects/ee-alegbeleyeokiki/assets/tcc_nigeria/tcc_2024_masked') //2024
 
     // Clip to your study area
-
+    
     var clipped_tcc_2024 = tcc_2024.clip(boundary)
 
     // Visualization palette
     var tcc_vis = {min: 0, max: 100, palette: ['white','lightgreen','green','darkgreen']}
 
-    // Center to a specific location
+    // Center to a specific location 
     Map.centerObject(ee.Geometry.Point([5.649, 6.165]), 13);
 
     
@@ -43,10 +43,10 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
 
   //TCC 2024
     Export.image.toDrive({
-      image: tcc_2024,
+      image: clipped_tcc_2024, // The clipped TCC layer
       description: "Your Image Description",
-      folder: "GEE_Exports", // your folder
-      fileNamePrefix: " TCC " + tcc_2024,
+      folder: "GEE_Exports", // your Google Drive folder
+      fileNamePrefix: " [Year] Clipped TCC  ",
       scale: 30, 
       region: geometry,
       maxPixels: 1e13  
@@ -57,10 +57,10 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
 
   // TCC 2024
     Export.image.toCloudStorage({
-      image: tcc_2024,
-      description: "Your Image Description", // edit the 
+      image: clipped_tcc_2024, // The clipped TCC layer
+      description: "Your Image Description",  
       bucket: "my-cloud-bucket", //your bucket name
-      fileNamePrefix: " TCC " + tcc_2024,
+      fileNamePrefix: " [Year] Clipped TCC " ,
       scale: 30, 
       region: geometry,
       maxPixels: 1e13 
@@ -87,7 +87,7 @@ If you use this app or any of its derived products, do not forget to cite our [p
 
 
 ```javascript
-Citation:
+Publication Reference:
 
 ```
 
