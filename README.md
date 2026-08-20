@@ -3,7 +3,7 @@
  
 
 
-This repository contains a [Google Earth Engine](https://code.earthengine.google.com/) JavaScript-based script that can be used directly to access and download the tree canopy cover for Nigeria. We developed the first national-level tree canopy cover (TCC) for Nigeria,  using a random forest model on the GEE platform. The TCC was developed by training a regression-based random forest model using 3,047 sample points at the [Landsat](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2) pixel level (30m). Please read our [publication]() for more details:
+This repository contains a [Google Earth Engine](https://code.earthengine.google.com/) JavaScript-based script that can be used directly to access and download the tree canopy cover for Nigeria. We developed the first national-level tree canopy cover (TCC) for Nigeria,  using a random forest model on the GEE platform. The TCC was developed by training a regression-based random forest model using 3,047 sample points at the [Landsat](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2) pixel level (30m). Please read our [publication](https://doi.org/10.1016/j.rsase.2026.102213) for more details:
 
 
 
@@ -92,7 +92,7 @@ Publication Reference:
 Alegbeleye, O.M., Alegbeleye, Y.O., Adeleke, O.S., Shomide, P.O., Ibeh, K.G., Ogundipe, O.C., Oyediran, A.,  
 Aderinola, A.D., Ojeleye, J.O. and Akintunde-Alo, A., 2026. First National-level Tree Canopy Cover:  
 Integrating AlphaEarth Embeddings with Landsat for Forest Monitoring in a Tropical Region.  
-Remote Sensing Applications: Society and Environment, p.102213.https://doi.org/10.1016/j.rsase.2026.102213
+Remote Sensing Applications: Society and Environment, p.102213.https://doi.org/10.1016/j.rsase.2026.102213 
 
 ```
 
