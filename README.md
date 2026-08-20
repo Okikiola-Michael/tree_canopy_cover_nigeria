@@ -89,7 +89,10 @@ If you use this app or any of its derived products, do not forget to cite our [p
 ```javascript
 
 Publication Reference:
-Alegbeleye, O.M., Alegbeleye, Y.O., Adeleke, O.S., Shomide, P.O., Ibeh, K.G., Ogundipe, O.C., Oyediran, A., Aderinola, A.D., Ojeleye, J.O. and Akintunde-Alo, A., 2026. First National-level Tree Canopy Cover: Integrating AlphaEarth Embeddings with Landsat for Forest Monitoring in a Tropical Region. Remote Sensing Applications: Society and Environment, p.102213.
+Alegbeleye, O.M., Alegbeleye, Y.O., Adeleke, O.S., Shomide, P.O., Ibeh, K.G., Ogundipe, O.C., Oyediran, A., <br>
+Aderinola, A.D., Ojeleye, J.O. and Akintunde-Alo, A., 2026. First National-level Tree Canopy Cover: <r>
+Integrating AlphaEarth Embeddings with Landsat for Forest Monitoring in a Tropical Region. <br>
+Remote Sensing Applications: Society and Environment, p.102213.
 
 ```
 
