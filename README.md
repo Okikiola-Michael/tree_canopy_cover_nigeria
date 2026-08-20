@@ -83,10 +83,10 @@ There is a [GEE-based application](https://ee-alegbeleyeokiki.projects.earthengi
                                           
 
   
-If you use this app or any of its derived products, do not forget to cite our [publication]().
+If you use this app or any of its derived products, do not forget to cite our [publication](https://doi.org/10.1016/j.rsase.2026.102213).
 
 
-```javascript
+```
 
 Publication Reference:
 Alegbeleye, O.M., Alegbeleye, Y.O., Adeleke, O.S., Shomide, P.O., Ibeh, K.G., Ogundipe, O.C., Oyediran, A.,  
